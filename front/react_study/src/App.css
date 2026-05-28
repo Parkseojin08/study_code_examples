@@ -1,0 +1,62 @@
+.app {
+  padding: 24px;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.tab-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+
+.tab-btn {
+  padding: 8px 14px;
+  background: #e5e7eb;
+  color: #111;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.tab-btn.active {
+  background: #4F46E5;
+  color: #fff;
+}
+
+.content {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 24px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4F46E5;
+  margin-bottom: 20px;
+}
+
+.block {
+  margin-bottom: 28px;
+}
+
+.block-label {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 8px;
+}
+
+.block-body {
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
